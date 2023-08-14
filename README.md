@@ -107,7 +107,7 @@ $$
 
 - support : $\text{supp}(f) = \{x\in\Omega,f(x)\neq 0\} $
 
-  <img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\support.svg" alt="img" style="zoom:67%;" />
+  <img src=".\README.assets\support.svg" alt="img" style="zoom:67%;" />
 
 >  **<font color="lightblue">Example 1</font>** : **Tent Function 1D**
 >
@@ -361,7 +361,7 @@ $$
 
 ### Load Vector
 
-<img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\rhs_assemble_nodes.svg" alt="img" style="zoom:80%;" />
+<img src=".\README.assets\rhs_assemble_nodes.svg" alt="img" style="zoom:80%;" />
 
 > **<font color="lightblue">Example</font>** : code for load vector assemble
 >
@@ -484,7 +484,7 @@ $\mathcal S_p^0(\mathcal M)$ : $p$-th Lagrangian finite element space, $C^0$ con
 $$
 u = g\quad u\in\partial\Omega\Leftrightarrow \vec \mu_{\partial }=\vec \gamma
 $$
-<img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\essential_boundary.svg" alt="img" style="zoom:80%;" />
+<img src=".\README.assets\essential_boundary.svg" alt="img" style="zoom:80%;" />
 $$
 \begin{bmatrix}
 \textbf A_0&\textbf A_{0\partial}\\
@@ -555,7 +555,7 @@ Concept :
 
 - **Shape Regularity** : $\rho_K = \frac{h_K^d}{|K|}\quad \rho_\mathcal M = \underset{K\in M}{\text{max}}~\rho_K\quad h_K = \text{diam}(K)$
 
-  <img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\sharp_regularity.svg" alt="img" style="zoom:80%;" />
+  <img src=".\README.assets\sharp_regularity.svg" alt="img" style="zoom:80%;" />
 
   - $\text{diam}(K)$ : the longest distance between two points in element  $K$
   - $\rho_{K/\mathcal M}$ : shape regularity for element $K$ / mesh  $\mathcal M$ 
@@ -780,7 +780,7 @@ $$
 $$
 >  **<font color="lightblue">Example</font>** : Störmer-Verlet timestepping
 >
-> <img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\CFL_example.svg" alt="img" style="zoom:100%;" />
+> <img src=".\README.assets\CFL_example.svg" alt="img" style="zoom:100%;" />
 
 
 
@@ -810,7 +810,7 @@ $$
 $$
 **Boundary**
 
-<img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\heat_flow_boundary.svg" alt="img" style="zoom:80%;" />
+<img src=".\README.assets\heat_flow_boundary.svg" alt="img" style="zoom:80%;" />
 
 - inflow boundary : $\Gamma_{\text{in}} = \{x\in\partial\Omega, \textbf v(\boldsymbol x)\cdot \boldsymbol n(\boldsymbol x) < 0\}$
 - outflow boundary : $\Gamma_{\text{out}} = \{x\in\partial\Omega, \textbf v(\boldsymbol x)\cdot \boldsymbol n(\boldsymbol x) > 0\}$
@@ -884,13 +884,13 @@ $$
 2. $\hat{\textbf y} = \textbf  w(t_j)\quad \dot {\textbf w} = \textbf r(t,\textbf w)\quad \textbf w(t_{j-1})=\tilde y$
 3. $\textbf y^{(j)} = \textbf z(t_j)\quad \dot {\textbf z}=\textbf g(t,\textbf z)\quad \textbf z(t_{j-1}+\frac{1}{2}\tau)=\hat{\textbf y}$
 
-<img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\strang_splitting.svg" alt="img" style="zoom:80%;" />
+<img src=".\README.assets\strang_splitting.svg" alt="img" style="zoom:80%;" />
 
 accuracy order:  second  order
 
 Leap-frog : combine 1 and 3
 
-<img src="D:\CMY\ETH\Semester-2\Numerical Method for Partial Differential Equation\README.assets\leapfrog.svg" alt="img" style="zoom:80%;" />
+<img src=".\README.assets\leapfrog.svg" alt="img" style="zoom:80%;" />
 
 
 
